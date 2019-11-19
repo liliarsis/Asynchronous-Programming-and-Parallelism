@@ -39,32 +39,28 @@ while True:
 		subprocess.call(["python3", "E3coroutines.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
-#	elif opcionMenu=="4":
-#		subprocess.call(["python3.7", "E4async.py"])
-#		print ("")
-#		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="4":
-		subprocess.call(["python3.7", "E5countasync.py"])
+		subprocess.call(["python3.7", "E4countasync.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="5":
-		subprocess.call(["python3", "E6rand.py"])
+		subprocess.call(["python3", "E5rand.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="6":
-		subprocess.call(["python3", "E7chained.py"])
+		subprocess.call(["python3", "E6chained.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="7":
-		subprocess.call(["python3", "E9poolApply.py"])
+		subprocess.call(["python3", "E7poolApply.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="8":
-		subprocess.call(["python3", "E10poolMap.py"])
+		subprocess.call(["python3", "E8poolMap.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")
 	elif opcionMenu=="9":
-		subprocess.call(["python3", "E11poolStarmap.py"])
+		subprocess.call(["python3", "E9poolStarmap.py"])
 		print ("")
 		input("\nPulsa una tecla para continuar")		
 						
